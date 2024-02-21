@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+h1 {
+    display: none;
+}
+nav {
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+nav>a {
+    color: white;
+    font-size: 30px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+}
+p {
+    font-size: 20px;
+    text-transform: capitalize;
+    margin: 5px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/* Bouttons */
+
+article {
+    position: relative;
+}
+
+#bouton_paris {
+    color: white;
+    background-color: violet;
+    padding: 10px;
+    /* position: absolute; */
+    /* left: calc(50%-) */
+    margin: auto;
+}
+#bouton_tokyo {
+    color: white;
+    background-color: red;
+    padding: 10px;
+    display: inline-block;
+    margin-left:auto;
+}
+#bouton_new-york {
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    display: inline-block;
+    margin: auto;
+}
+#image_paris {
+    background-image: url(../images/paris.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+#image_tokyo {
+    background-image: url(../images/tokyo.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+#image_new-york {
+    background-image: url(../images/new-york.jpeg);
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+main>article {
+    border: 1px solid black;
+    margin: 25px;
+}
